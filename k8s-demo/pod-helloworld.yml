@@ -9,5 +9,4 @@ spec:
   - name: k8s-demo
     image: hachikoapp/k8s-demo
     ports:
-    - name: nodejs-port
-      containerPort: 3000
+    - containerPort: 3000
